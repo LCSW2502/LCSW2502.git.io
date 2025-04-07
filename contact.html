@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Banstola Baby Carriages</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Name: Prasanna Banstola | Student ID: C0957912 -->
+</head>
+<body id="top">
+
+    <!-- <header id="main-header" class="header">
+        <img src="images/banner.png" alt="Banstola Baby Carriages Banner" class="banner-img" width="100%" height="300">
+    </header> -->
+
+    <nav id="main-nav" class="navigation" aria-label="Main Navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/bbc logo.png" alt="Banstola Baby Carriages Logo" class="logo-img" height="40">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+            </ul>
+     <!-- Hamburger -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+        </div>
+    </nav>
+
+    <main id="main-content" class="container">
+        <h1 class="page-title">Contact Us</h1>
+        <p class="intro-text">We’d love to hear from you! Fill out the form below and we’ll get back to you as soon as possible.</p>
+
+        <form id="contact-form" class="contact-form" action="submit-form.php" method="post">
+            <div class="form-group">
+                <label for="name" class="form-label">Full Name:</label>
+                <input type="text" id="name" name="name" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email Address:</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject" class="form-label">Subject:</label>
+                <input type="text" id="subject" name="subject" class="form-input">
+            </div>
+
+            <div class="form-group">
+                <label for="message" class="form-label">Your Message:</label>
+                <textarea id="message" name="message" rows="5" class="form-textarea" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="submit-button">Send Message</button>
+            </div>
+        </form>
+
+        <!-- Map Section -->
+        <section id="location-map" class="map-section">
+            <h2 class="section-title">Our Location</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.903812547571!2d-74.00594108459325!3d40.71277597933045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMjIuMCJX!5e0!3m2!1sen!2sus!4v1616768597653!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer id="page-footer" class="footer">
+        <p>&copy; 2099 Banstola Baby Carriages. All rights reserved.</p>
+        <p><a href="mailto:info@banstolacarriages.com">Request more information</a></p>
+        <small class="footer-note">Prasanna Banstola | C0957912</small>
+    </footer>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
